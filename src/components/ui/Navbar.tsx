@@ -43,7 +43,7 @@ export default function ExampleNavbarOne() {
               />
             </svg>
           </span>
-          <span className="font-bold">DevUI</span>
+          <span className="font-bold text-orange-500">Luminant</span>
         </div>
         <div className="hidden lg:block">
           <ul className="inline-flex space-x-8">
@@ -51,7 +51,7 @@ export default function ExampleNavbarOne() {
               <li key={item.name}>
                 <a
                   href={item.href}
-                  className="text-sm font-semibold text-gray-800 hover:text-gray-900"
+                  className="text-sm font-semibold text-gray-800 hover:text-gray-900 flex justify-end"
                 >
                   {item.name}
                 </a>

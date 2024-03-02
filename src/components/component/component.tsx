@@ -66,29 +66,29 @@ export function Component() {
            
             <Checkbox id="terms" />
             <label className="text-sm" htmlFor="terms">
-              I agree to the 
-              <a className="text-blue-500" href="#">
-               terms and conditions
-              </a>
+             <span className="mr-2 ml-2">I agree to the </span>
+              
+              <a href="#" className="text-blue-500">terms and conditions</a>
+              
             </label>
+
             <div>
             <Button className="border rounded-full bg-blue-500 text-white hover">Create an account</Button>
             </div>
           </form>
-          <div className="text-sm ">
+          <div className="text-sm inline-flex space-x-8">
             
-              Already have an account?
-              <a className="flex justify-end text-blue-500" href="#">
-                Forgot your password?
+              <span className="mr-5">Already have an account?</span>
+              <a className=" text-red-500 " href="#">
+                <span className="ml-10">Forgot your password?</span>
               </a>
-            
-             
-                <a className="text-blue-600 " href="#">
-                Sign in
-                </a>
-              
-            
+        
           </div>
+          <div>
+                 <a className="text-blue-600  " href="#">
+                 Sign in
+                 </a>
+                </div>
         </section>
       </main>
     
