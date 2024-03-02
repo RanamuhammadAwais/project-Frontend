@@ -18,11 +18,35 @@ export function Component() {
             Create an AIbot that serves your sales teams and your customer support
           </h2>
           <p className="text-lg">Support at every step of the way.</p>
-          <div className="flex space-x-4">
+          {/* <div className="flex space-x-4">
             <Button variant="default">What can you do?</Button>
             <Button variant="outline">Learn about customer's team</Button>
             <Button variant="secondary">Sell it now</Button>
+          </div> */}
+          <section className=" border rounded-md bg-gray-50 ">
+           <div >
+           <div className="flex space-x-4">
+            <span className="max-h-fit p-3">
+              <span className="mr-9 " >
+              <Button variant="default" className=" rounded-2xl p-6 m-3 mb-10 border bg-black text-white" >Hi there i am labbot</Button>
+              </span>
+              <div className="m-8 h-6 w-6 rounded-full bg-black"></div>
+              <div className="m-8 h-3 w-3 rounded-full bg-black"></div>
+              <span className="flex justify-self-end m-8">
+            <Button variant="default" className="border p-5 mr-5 bg-blue-300 text-white font-thin rounded-xl ">What can you do?</Button>
+            <Button variant="outline" className="border ml-10 bg-blue-300 text-white font-thin rounded-xl" >Learn about customer's team</Button>
+            <Button variant="secondary" className=" ml-10 border bg-green-300 text-white font-thin rounded-xl">Sell it now</Button>
+            </span>
+
+
+            </span>
           </div>
+  
+           </div>
+           </section>
+
+
+
         </section>
         <section className="w-1/3 bg-white rounded-xl shadow-lg p-8 space-y-4">
           <h3 className="text-xl font-semibold">Account creation</h3>
