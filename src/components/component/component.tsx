@@ -14,33 +14,34 @@ export function Component() {
     
       <main className="mt-12 flex justify-between">
         <section className="w-1/2 space-y-6">
-          <h2 className="text-6xl font-bold leading-tight">
+          <h2 className="ml-4 text-6xl font-bold leading-tight">
             Create an AIbot that serves your sales teams and your customer support
           </h2>
-          <p className="text-lg">Support at every step of the way.</p>
+          <p className="text-lg ml-4">Support at every step of the way.</p>
           {/* <div className="flex space-x-4">
             <Button variant="default">What can you do?</Button>
             <Button variant="outline">Learn about customer's team</Button>
             <Button variant="secondary">Sell it now</Button>
           </div> */}
           <section className=" border rounded-md bg-gray-50 ">
+            
            <div >
-           <div className="flex space-x-4">
-            <span className="max-h-fit p-3">
+           <div className="w-10/12 flex space-x-4">
+             <span className=" max-h-fit p-3">
               <span className="mr-9 " >
-              <Button variant="default" className=" rounded-2xl p-6 m-3 mb-10 border bg-black text-white" >Hi there i am labbot</Button>
+               <Button variant="default" className=" rounded-2xl p-6 m-3 mb-10 border bg-black text-white" >Hi there i am labbot</Button>
               </span>
-              <div className="m-8 h-6 w-6 rounded-full bg-black"></div>
-              <div className="m-8 h-3 w-3 rounded-full bg-black"></div>
+                <div className="m-8 h-6 w-6 rounded-full bg-black"></div>
+                <div className="m-8 h-3 w-3 rounded-full bg-black"></div>
               <span className="flex justify-self-end m-8">
-            <Button variant="default" className="border p-5 mr-5 bg-blue-300 text-white font-thin rounded-xl ">What can you do?</Button>
-            <Button variant="outline" className="border ml-10 bg-blue-300 text-white font-thin rounded-xl" >Learn about customer's team</Button>
-            <Button variant="secondary" className=" ml-10 border bg-green-300 text-white font-thin rounded-xl">Sell it now</Button>
-            </span>
+                <Button variant="default" className="border p-5 mr-10 bg-blue-500 text-white rounded-xl ">What can you do?</Button>
+               <Button variant="outline" className="border ml-10 bg-blue-500 text-white  rounded-xl mr-10" >Learn about customer's team</Button>
+               <Button variant="secondary" className=" ml-10 border bg-green-500 text-white rounded-xl">Sell it now</Button>
+             </span>
 
 
-            </span>
-          </div>
+             </span>
+           </div>
   
            </div>
            </section>
@@ -48,7 +49,7 @@ export function Component() {
 
 
         </section>
-        <section className="w-1/3 bg-white rounded-xl shadow-lg p-8 space-y-4">
+        <section className="w-10/14 bg-gray-50 rounded-xl shadow-lg p-8 space-y-4">
           <h3 className="text-xl font-semibold">Account creation</h3>
           <form className="space-y-4">
             <div className="flex flex-col space-y-1">
