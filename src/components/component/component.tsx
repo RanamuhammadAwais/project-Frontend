@@ -11,30 +11,10 @@ import { Checkbox } from "@/components/ui/checkbox"
 export function Component() {
   return (
     <div className="min-h-screen bg-white p-8">
-      <header className="flex items-center justify-between">
-        <h1 className="text-xl font-bold">LOGO</h1>
-        <nav className="flex items-center space-x-4">
-          <Button variant="ghost">Contact Us</Button>
-          <Select>
-            <SelectTrigger id="language">
-              <SelectValue>EN</SelectValue>
-            </SelectTrigger>
-            <SelectContent position="popper">
-              <SelectItem value="en">EN</SelectItem>
-              <SelectItem value="fr">FR</SelectItem>
-            </SelectContent>
-          </Select>
-          <Avatar>
-            <AvatarImage alt="User Avatar" src="/placeholder.svg?height=32&width=32" />
-            <AvatarFallback>U</AvatarFallback>
-          </Avatar>
-          <BellIcon className="w-6 h-6 text-gray-600" />
-          <TextIcon className="w-6 h-6 text-gray-600" />
-        </nav>
-      </header>
+    
       <main className="mt-12 flex justify-between">
         <section className="w-1/2 space-y-6">
-          <h2 className="text-5xl font-bold leading-tight">
+          <h2 className="text-6xl font-bold leading-tight">
             Create an AIbot that serves your sales teams and your customer support
           </h2>
           <p className="text-lg">Support at every step of the way.</p>
@@ -49,52 +29,69 @@ export function Component() {
           <form className="space-y-4">
             <div className="flex flex-col space-y-1">
               <label className="text-sm font-medium" htmlFor="email">
-                Email address
+                E-Mail
               </label>
               <Input id="email" placeholder="hello@uiux.com" type="email" />
             </div>
             <div className="flex flex-col space-y-1">
-              <label className="text-sm font-medium" htmlFor="password">
-                Password
+              <label className="text-sm font-medium" htmlFor="Phone">
+                Phone
               </label>
-              <Input id="password" placeholder="********" type="password" />
+              <Input id="Phone" placeholder="+7 995 123 50 40" type="Phone" />
             </div>
-            <Select>
-              <SelectTrigger id="country">
-                <SelectValue placeholder="Select country" />
-              </SelectTrigger>
-              <SelectContent position="popper">
-                <SelectItem value="us">United States</SelectItem>
-                <SelectItem value="ca">Canada</SelectItem>
-              </SelectContent>
-            </Select>
+            <div className="flex flex-col space-y-1">
+              <label className="text-sm font-medium" htmlFor="Confirmation code">
+              Confirmation code
+              </label>
+              <Input id="Confirmation code" placeholder="06-08" type="Confirmation code" />
+            </div>
+            <div className="flex flex-col space-y-1">
+              <label className="text-sm font-medium" htmlFor="Create Password">
+              Create Password
+              </label>
+              <Input id="email" placeholder="Dfs@sdfe2" type="Create Password" />
+            </div>
+            <div className="flex flex-col space-y-1">
+              <label className="text-sm font-medium" htmlFor="Company Name">
+              Company Name
+              </label>
+              <Input id="password" placeholder="Dfs@sdfe2" type="password" />
+            </div>
+            <div className="flex flex-col space-y-1">
+              <label className="text-sm font-medium" htmlFor="Link for Website">
+              Link for Website
+              </label>
+              <Input id="password" placeholder="Dfs@sdfe2.com" type="password" />
+            </div>
+           
             <Checkbox id="terms" />
             <label className="text-sm" htmlFor="terms">
-              I agree to the
+              I agree to the 
               <a className="text-blue-500" href="#">
-                terms and conditions
+               terms and conditions
               </a>
             </label>
-            <Button>Create an account</Button>
+            <div>
+            <Button className="border rounded-full bg-blue-500 text-white hover">Create an account</Button>
+            </div>
           </form>
-          <div className="text-sm">
-            <p>
-              Already have an account?{""}
-              <a className="text-blue-500" href="#">
-                Sign in
-              </a>
-            </p>
-            <p>
-              <a className="text-blue-500" href="#">
+          <div className="text-sm ">
+            
+              Already have an account?
+              <a className="flex justify-end text-blue-500" href="#">
                 Forgot your password?
               </a>
-            </p>
+            
+             
+                <a className="text-blue-600 " href="#">
+                Sign in
+                </a>
+              
+            
           </div>
         </section>
       </main>
-      <footer className="absolute bottom-8 right-8">
-        <SmartphoneIcon className="w-12 h-12 text-green-500" />
-      </footer>
+    
     </div>
   )
 }
@@ -143,22 +140,22 @@ function TextIcon(props:any) {
 }
 
 
-function SmartphoneIcon(props:any) {
-  return (
-    <svg
-      {...props}
-      xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    >
-      <rect width="14" height="20" x="5" y="2" rx="2" ry="2" />
-      <path d="M12 18h.01" />
-    </svg>
-  )
-}
+// function SmartphoneIcon(props:any) {
+//   return (
+//     <svg
+//       {...props}
+//       xmlns="http://www.w3.org/2000/svg"
+//       width="24"
+//       height="24"
+//       viewBox="0 0 24 24"
+//       fill="none"
+//       stroke="currentColor"
+//       strokeWidth="2"
+//       strokeLinecap="round"
+//       strokeLinejoin="round"
+//     >
+//       <rect width="14" height="20" x="5" y="2" rx="2" ry="2" />
+//       <path d="M12 18h.01" />
+//     </svg>
+//   )
+// }

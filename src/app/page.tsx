@@ -7,13 +7,13 @@ export default function Home() {
   return (
     <main className="bg-white">
      
-     <div className=''>
+      <div className=''>
+
+          <Component/>
+          
+      </div>
 
 
-<Component/>
-{/* <Navbar/> */}
-      
-     </div>
     </main>
   );
 }
