@@ -5,7 +5,7 @@ import Navbar from "@/components/ui/Navbar"
 
 export default function Home() {
   return (
-    <main className="bg-white">
+    <main className=" md:bg-green-500 lg:bg-yellow-500 xl:bg-red-500 ">
      
       <div className=''>
 

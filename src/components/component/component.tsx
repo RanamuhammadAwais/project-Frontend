@@ -10,7 +10,7 @@ import { Checkbox } from "@/components/ui/checkbox"
 
 export function Component() {
   return (
-    <div className="min-h-screen bg-white p-8">
+    <div className="min-h-screen bg-gradient-to-r from-violet-50 to-cyan-50 bg-blend-lighten flex-col items-center sm:flex-row">
     
       <main className="mt-12 flex justify-between">
         <section className="w-1/2 space-y-6">
